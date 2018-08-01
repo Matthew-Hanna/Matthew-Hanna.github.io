@@ -1,0 +1,1094 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*MY CODE*/
+
+/*index*/
+
+a {
+  text-decoration: none;
+  color: #3D3C3C;
+}
+
+.top-wrapper {
+  width: 100%;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  height: 150px;
+}
+
+.index-title {
+  padding-left: 50px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.MIBS {
+  float: left;
+  height: 122px;
+  width: 288px;
+}
+
+.our-research-button {
+  display: none;
+}
+
+.our-people-button {
+  display: none;
+}
+
+.partnerships-button {
+  display: none;
+}
+
+.contact-us-button {
+  display: none;
+}
+
+.index-menu {
+  float: right;
+  border-color: #707070;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-left-color: #707070;
+  border-left-style: solid;
+  border-left-width: 4px;
+  text-align: center;
+}
+
+.menu-box {
+  margin: 0 auto;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 100px;
+  height: 7px;
+  background-color: #333;
+  margin: 30px auto;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-39px, 35px);
+  transform: rotate(-45deg) translate(-39px, 35px);
+  text-align: center;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-15px, -15px);
+  transform: rotate(45deg) translate(-15px, -15px);
+  text-align: center;
+}
+
+.menu-icon {
+  height: 122px;
+  padding-top: 10px;
+}
+
+.index-welcome {
+  width: 100%;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+}
+
+.welcome {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 42px;
+  font-weight: 350;
+  font-family: Segoe UI;
+  line-height: 70px;
+  color: #3D3C3C;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.desktop-welcome-break {
+  display: none;
+}
+
+.slideshow-pics {
+  display: none;
+  width: 100%;
+}
+
+.lab-photo {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 600px;
+}
+
+.slideshow-controls {
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-top-color: #707070;
+  border-top-style: solid;
+  border-top-width: 4px;
+  height: 40px;
+  width: 100%;
+}
+
+.slideshow-controls button {
+  display: inline-block;
+  float: left;
+  height: 40px;
+}
+
+.line {
+  width: 4px;
+  background-color: #707070;
+  height: 40px;
+  display: inline-block;
+  float: left;
+}
+
+.slideshow-controls button:hover {
+  background-color: #9EBDCC;
+  opacity: 1.25;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.control-box1 {
+  opacity: 0;
+  width: 24.6%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+  display: block;
+}
+
+.control-box2 {
+  opacity: 0.25;
+  width: 24.6%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+}
+
+.control-box3 {
+  opacity: 0.75;
+  width: 24.6%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+}
+
+.control-box4 {
+  width: 24.6%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+}
+
+.active, .control-box1:hover {
+  background-color: #717171;
+}
+
+.active, .control-box2:hover {
+  background-color: #717171;
+}
+
+.active, .control-box3:hover {
+  background-color: #717171;
+}
+
+.active, .control-box4:hover {
+  background-color: #717171;
+}
+
+.description {
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+}
+
+.description h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Segoe UI;
+  word-spacing: 1px;
+  line-height: 25px;
+  color: #3D3C3C;
+  text-align: center;
+}
+
+.footer-container {
+  height: 200px;
+}
+
+.footer-container ul {
+  height: 200px;
+  list-style-type: none;
+}
+
+.contact-info {
+  padding-top: 5px;
+  padding-left: 40px;
+  font-family: Segoe UI;
+  color: #3D3C3C;
+  text-align: left;
+  background-color: #C5ECFF;
+  width: 75%;
+  float: left;
+  font-weight: 350;
+  height: 301px;
+}
+
+.contact-info h3 {
+  font-size: 40px;
+  font-weight: 400;
+  word-spacing: 2px;
+  line-height: 65px;
+}
+
+.contact-info ul {
+  font-size: 24px;
+  word-spacing: 2px;
+  line-height: 43px;
+  padding-bottom: 20px;
+}
+
+.footer-buttons h2 {
+  display: none;
+}
+
+.share-button {
+  float: right;
+  width: 200px;
+  height: 150px;
+  vertical-align: top;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-left-color: #707070;
+  border-left-style: solid;
+  border-left-width: 4px;
+}
+
+.to-top-button {
+  width: 200px;
+  height: 150px;
+  vertical-align: bottom;
+  float: right;
+  border-left-color: #707070;
+  border-left-style: solid;
+  border-left-width: 4px;
+}
+
+.share-icon {
+  padding-top: 20px;
+  width: 100px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.to-top-icon {
+  padding-top: 0px;
+  width: 100px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: center;
+}
+
+.to-top-button {
+  text-align: center;
+}
+
+#to-top-btn-2 {
+  display: none;
+}
+
+#to-top-btn {
+  padding-top: 20px;
+  width: 100px;
+  height: 120px;
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+#to-top-btn:hover {
+  background-color: #555;
+}
+
+.recent-projects {
+  display: none;
+}
+
+/* Homepage Desktop Adjustments */
+
+@media only screen and (min-width: 1000px) {
+  .top-wrapper {
+    border-bottom-width: 1.5px;
+    height: 72px;
+    text-align: center;
+    border-bottom-width: 1px;
+  }
+  .top-wrapper h1 {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .index-title {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+  }
+  .MIBS {
+    height: 46px;
+    width: 110px;
+    text-align: center;
+  }
+  .MIBS:hover {
+    margin-top: -9px;
+  }
+  .our-research-button {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 14px;
+    height: auto;
+    width: auto;
+  }
+  .our-research-button:hover .flask-icon {
+    margin-top: -7.2px;
+    margin-bottom: 10.8px;
+  }
+  .our-people-button {
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 14px;
+  }
+  .our-people-button:hover .people-icon {
+    margin-top: -7.2px;
+    margin-bottom: 10.8px;
+  }
+  .partnerships-button {
+    display: inline-block;
+    float: right;
+    margin-top: 14px;
+    margin-right: 10%;
+  }
+  .partnerships-button:hover .shake-icon {
+    margin-top: -7.2px;
+    margin-bottom: 10.8px;
+  }
+  .contact-us-button {
+    display: inline-block;
+    float: right;
+    margin-top: 14px;
+    margin-right: 5%;
+  }
+  .contact-us-button:hover .phone-icon {
+    margin-top: -7.2px;
+    margin-bottom: 10.8px;
+  }
+  .flask-icon {
+    height: 28.8px;
+  }
+  .people-icon {
+    height: 28.8px;
+  }
+  .shake-icon {
+    height: 28.8px;
+  }
+  .phone-icon {
+    height: 28.8px;
+  }
+  .index-menu {
+    width: 0px;
+    height: 0px;
+    border-left: none;
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .index-welcome {
+    border-bottom-width: 1px;
+  }
+  .welcome {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+  .welcome-break {
+    display: none;
+  }
+  .desktop-welcome-break {
+    display: inline-block;
+  }
+  .slideshow-pics {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .lab-photo {
+    width: 70%;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    height: 550px;
+  }
+  .slideshow-controls {
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    height: 18px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: -2.5px;
+    border-left-color: #707070;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #707070;
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+  .slideshow-controls button {
+    height: 18px;
+  }
+  .line {
+    width: 1px;
+    height: 18px;
+  }
+  .control-box1 {
+    width: 24.8%;
+  }
+  .control-box2 {
+    width: 24.5%;
+  }
+  .control-box3 {
+    width: 24.8%;
+  }
+  .control-box4 {
+    width: 25.5%;
+  }
+  .description {
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+  }
+  .description h3 {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  .footer-container {
+    height: 155px;
+  }
+  .contact-info {
+    padding-top: 5px;
+    padding-left: 0%;
+    color: #3D3C3C;
+    text-align: left;
+    background-color: #C5ECFF;
+    width: 36.8%;
+    height: 150px;
+    border-right-color: #707070;
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+  .contact-info h3 {
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 40px;
+    padding-left: 10%;
+  }
+  .contact-info ul {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    height: auto;
+  }
+  .footer-buttons {
+    height: 0px;
+    text-align: center;
+  }
+  .footer-buttons h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 40px;
+    font-family: Segoe UI;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 050;
+    color: #3D3C3C;
+  }
+  .share-button {
+    float: left;
+    height: 155px;
+    vertical-align: none;
+    border-bottom-style: none;
+    border-left-width: 1px;
+    border-right-color: #707070;
+    border-right-style: solid;
+    border-right-width: 1px;
+    width: 13%;
+    vertical-align: none;
+  }
+  .share-button:hover {
+    background-color: #F1F1F1;
+  }
+  .to-top-button {
+    display: none;
+  }
+  .to-top-button-2 {
+    display: inline-block;
+    height: 155px;
+    vertical-align: none;
+    float: left;
+    border-left-style: none;
+    width: 13%;
+    text-align: center;
+  }
+  .share-icon {
+    padding-top: 0px;
+    width: 80px;
+    display: block;
+    text-align: center;
+  }
+  #to-top-btn-2 {
+    display: inline-block;
+    text-align: center;
+    height: 155px;
+    float: left;
+    border-left-style: none;
+    width: 13%;
+    vertical-align: none;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+  }
+  #to-top-btn-2:hover {
+    background-color: #F1F1F1;
+  }
+  #to-top-btn {
+    display: none;
+  }
+  .to-top-icon {
+    padding-top: 0px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .recent-projects {
+    display: inline-block;
+    float: right;
+    font-family: Segoe UI;
+    color: #3D3C3C;
+    background-color: #C5ECFF;
+    font-weight: 350;
+    width: 36.9%;
+    height: 155px;
+  }
+  .recent-projects h3 {
+    font-weight: 350;
+    font-size: 30px;
+    word-spacing: 2px;
+    line-height: 40px;
+    margin-left: 5%;
+  }
+  .recent-projects ul {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    height: auto;
+  }
+}
+
+/*Styling for our-research page*/
+
+.mobile-flask-icon {
+  display: inline-block;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.mobile-flask {
+  display: inline-block;
+  margin-left: 38%;
+}
+
+.page-title {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-weight: 350;
+  font-family: Segoe UI;
+  line-height: 70px;
+  color: #3D3C3C;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cb1 {
+  opacity: 0;
+  width: 16.3%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cb2 {
+  opacity: 0;
+  width: 16.3%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cb3 {
+  opacity: 0.25;
+  width: 16.3%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cb4 {
+  opacity: 0.5;
+  width: 16.3%;
+  background-color: #C5ECFF;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cb5 {
+  opacity: 0.75;
+  width: 16.3%;
+  background-color: #73C8F2;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cb6 {
+  opacity: 1;
+  width: 16.3%;
+  background-color: #4CAFDF;
+  cursor: pointer;
+}
+
+.description h2 {
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: 450;
+  font-family: Segoe UI;
+  word-spacing: 1px;
+  line-height: 25px;
+  color: #3D3C3C;
+  text-align: center;
+}
+
+/*Styling for our-people page*/
+
+.mobile-users-icon {
+  display: inline-block;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.mobile-users {
+  margin-left: 33%;
+  display: inline-block;
+}
+
+.people-slideshow button {}
+
+#mobile-l-btn {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  margin-left: 3%;
+}
+
+#mobile-r-btn {
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: auto;
+}
+
+.mobile-r-icon {
+  display: inline-block;
+  height: 150px;
+  margin-right: 3%;
+}
+
+.mobile-l-icon {
+  display: inline-block;
+  height: 150px;
+}
+
+.slideshow-portraits {
+  text-align: center;
+  width: 50%;
+  display: none;
+}
+
+.portrait {
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 700px;
+}
+
+.people-slides {
+  width: 100%;
+  display: inline-block;
+}
+
+/*Styling for partnerships page*/
+
+.mobile-handshake-icon {
+  display: inline-block;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.mobile-handshake {
+  margin-left: 33%;
+  display: inline-block;
+}
+
+.partnership-logos {
+  text-align: center;
+}
+
+.partnership-banners {
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: auto;
+  width: 80%;
+}
+
+/*Styling for contacts page*/
+
+.contact-us {
+  height: 100%;
+}
+
+.contact-list {
+  background-color: #3D3C3C;
+  height: calc(100% - 280px);
+}
+
+.contacts {
+  display: block;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  height: 24.8%;
+}
+
+.contacts img {
+  float: left;
+}
+
+.map-symbol {
+  width: 150px;
+  margin-top: 30%;
+}
+
+.envelope-symbol {
+  width: 150px;
+  margin-top: 50%;
+}
+
+.phone-symbol {
+  width: 150px;
+  margin-top: 50%;
+}
+
+.mibs-symbol {
+  width: 250px;
+  margin-top: 50%;
+}
+
+.contact-list h2 {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: Segoe UI;
+  word-spacing: 1px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.contacts-symbol {
+  width: 25%;
+  display: inline-block;
+  height: 100%;
+  padding-left: 8%;
+}
+
+.mibs-contacts-symbol {
+  width: 25%;
+  display: inline-block;
+  height: 100%;
+  padding-left: 3%;
+}
+
+.contacts-text1 {
+  display: inline-block;
+  float: right;
+  margin-top: 40px;
+  padding-right: 10px;
+}
+
+.contacts-text2 {
+  display: inline-block;
+  float: right;
+  margin-top: 130px;
+  padding-right: 50px;
+}
+
+.contacts-text3 {
+  display: inline-block;
+  float: right;
+  margin-top: 130px;
+  padding-right: 50px;
+}
+
+.contacts-text4 {
+  display: inline-block;
+  float: right;
+  margin-top: 130px;
+  padding-right: 280px;
+}
+
+.mobile-phone-icon {
+  display: inline-block;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.mobile-phone {
+  margin-left: 35%;
+  display: inline-block;
+}
+
+/*Styling for share page*/
+
+.mobile-phone-icon {
+  display: inline-block;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.share-div {
+  display: block;
+}
+
+.mobile-phone {
+  margin-left: 35%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.share-icon-list {
+  width: 300px;
+}
+
+.last-share-icon {
+  width: 300px;
+  margin-top: 30px;
+}
+.share{
+  height: auto;
+}
+.contact-info-share {
+  padding-top: 5px;
+  padding-left: 40px;
+  font-family: Segoe UI;
+  color: #3D3C3C;
+  text-align: center;
+  background-color: #C5ECFF;
+  width: 100%;
+  float: left;
+  font-weight: 350;
+  height: 301px;
+  border-top-color: #707070;
+  border-top-style: solid;
+  border-top-width: 4px;
+}
+
+.contact-info-share h3 {
+  font-size: 40px;
+  font-weight: 400;
+  word-spacing: 2px;
+  line-height: 65px;
+}
+
+.contact-info-share ul {
+  font-size: 24px;
+  word-spacing: 2px;
+  line-height: 43px;
+  padding-bottom: 20px;
+}
