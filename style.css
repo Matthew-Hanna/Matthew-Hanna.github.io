@@ -102,7 +102,8 @@ input, select {
 }
 /*MY CODE*/
 html{
-  background-image: url("sunset.jpg");
+  background-image: url("sunsetoriginalblur.jpg");
+  background-attachment: fixed;
   webkit-background-size: cover;
   moz-background-size: cover;
   o-background-size: cover;
@@ -111,6 +112,12 @@ html{
   width: 100%;
   background-repeat: no-repeat;
   background-color: #000;
+}
+
+br {
+      display: block; /* makes it have a width */
+      content: ""; /* clears default height */
+      margin-top: 10px; /* change this to whatever height you want it */
 }
 
 .the-title{
@@ -174,7 +181,6 @@ html{
   list-style-position: inside;
   font-size: 20px;
   line-height: 43px;
-  background-color:#0A507F;
   width: 350px;
   height: 435px;
 }
@@ -192,7 +198,7 @@ h3{
   text-align: left;
 }
 .selfphoto{
-  height: 550px;
+  height: 530px;
 }
 
 .title{
@@ -202,16 +208,33 @@ h3{
 }
 
 .bio{
-  margin-top: 50px;
-  margin-left: -5px;
-  text-indent: 20px;
+  margin-left: 10px;
+  text-indent: 0px;
   font-style: normal;
   text-transform: capitalize;
   color: #FFFFFF;
   text-align: left;
   background-color:#0A507F;
-  padding: 10px 30px 30px;
+  padding: 10px 30px 10px;
   width: 400px;
+  display: inline-block;
+  text-align: left;
+  line-height: 50px;
+  vertical-align: bottom;
+  height: 575px;
+}
+
+.bio1{
+  margin-top: 50px;
+  margin-left: 10px;
+  text-indent: 0px;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: left;
+  background-color:#0A507F;
+  padding: 10px 30px 10px;
+  width: 265px;
   display: inline-block;
   text-align: left;
   line-height: 50px;
@@ -234,8 +257,15 @@ h3{
   margin-bottom: 100px;
 }
 
+.bottom-container2{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: -52px;
+}
+
 .bmepic{
-  height: 415px;
+  height: 388px;
 }
 
 .biomed{
@@ -312,13 +342,15 @@ h3{
     text-decoration: none;
     font-family: trebuchet ms;
     font-size: 30px;
+    text-indent: 5px;
 }
 .biotext{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
   text-transform: none;
+  text-indent: 0px;
 }
 
 .picholder1{
@@ -412,6 +444,40 @@ h3{
   margin-top: 0px;
 }
 
+.pattern1{
+  background-image: url("pattern.jfif");
+  height: 530px;
+  width: 50px;
+  text-align: left;
+  display: inline-block;
+  margin-right: -20px;
+  margin-left: -10px;
+  vertical-align: top;
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+.pattern2{
+  visibility: hidden;
+  background-image: url("patternh.jpg");
+  height: 40px;
+  width: 960px;
+  display: inline-block;
+}
+
+.pattern3{
+  visibility: hidden;
+  background-image: url("pattern.jfif");
+  height: 595px;
+  width: 50px;
+  text-align: left;
+  display: inline-block;
+  margin-right: -20px;
+  margin-left: -10px;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
 .skiingvid{
   height: 355px
 }
@@ -490,7 +556,7 @@ h3{
   text-transform: capitalize;
   color: #FFF;
   line-height: 30px;
-  background-color:#CBB18B;
+  background-color:#CD8E52;
   bottom: 0;
   position: fixed;
 }
@@ -498,7 +564,8 @@ h3{
   margin-left: 40px;
   text-align: left;
   float: left;
-  margin-top: 15px;
+  color: #000;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 955px)
