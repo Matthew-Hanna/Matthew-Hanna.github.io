@@ -878,19 +878,27 @@ a {
   background: transparent;
   border: none !important;
   font-size: 0;
-  margin-top: 300px;
 }
 
 #mobile-r-btn {
   display: inline-block;
   margin-right: 3%;
-  margin-top: -480px;
   padding-top: 20px;
   text-align: center;
   background: transparent;
   border: none !important;
   font-size: 0;
   float: right;
+}
+.mobile-left-button{
+  display: inline-block;
+  float: left;
+  margin-top: 300px;
+}
+.mobile-right-button{
+  display: inline;
+  float: right;
+  margin-top: 300px;
 }
 
 .mobile-r-icon {
@@ -903,21 +911,13 @@ a {
   height: 150px;
 }
 
-.slideshow-portraits {
-  text-align: center;
-  width: 50%;
-  display: none;
-}
-
 .portrait {
   padding-top: 40px;
   padding-bottom: 40px;
   height: 700px;
 }
 
-.people-slides {
-  width: 100%;
-  display: block;
+.slideshow-pics{
   text-align: center;
 }
 
