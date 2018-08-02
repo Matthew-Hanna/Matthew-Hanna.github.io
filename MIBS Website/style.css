@@ -100,6 +100,10 @@ a {
   color: #3D3C3C;
 }
 
+button {
+  cursor: pointer;
+}
+
 .top-wrapper {
   width: 100%;
   border-bottom-color: #707070;
@@ -601,7 +605,7 @@ a {
   }
   .description {
     border-bottom-color: #707070;
-    border-bottom-style: solid;
+    border-bottom-style: none;
     border-bottom-width: 1.5px;
   }
   .description h3 {
@@ -633,7 +637,7 @@ a {
     border-right-width: 1px;
   }
   .contact-info h3 {
-    font-size: 30px;
+    font-size: 20px;
     word-spacing: 2px;
     line-height: 40px;
     padding-left: 10%;
@@ -732,7 +736,7 @@ a {
   }
   .recent-projects h3 {
     font-weight: 350;
-    font-size: 30px;
+    font-size: 20px;
     word-spacing: 2px;
     line-height: 40px;
     margin-left: 5%;
@@ -745,6 +749,7 @@ a {
     margin-left: 5%;
     height: auto;
   }
+  /*Styling for our-research*/
 }
 
 /*Styling for our-research page*/
@@ -890,12 +895,14 @@ a {
   font-size: 0;
   float: right;
 }
-.mobile-left-button{
+
+.mobile-left-button {
   display: inline-block;
   float: left;
   margin-top: 300px;
 }
-.mobile-right-button{
+
+.mobile-right-button {
   display: inline;
   float: right;
   margin-top: 300px;
@@ -917,7 +924,7 @@ a {
   height: 700px;
 }
 
-.slideshow-pics{
+.slideshow-pics {
   text-align: center;
 }
 
@@ -930,6 +937,12 @@ a {
   line-height: 50px;
   color: #3D3C3C;
   text-align: center;
+}
+.desktop-left-button{
+  display: none;
+}
+.desktop-right-button{
+  display: none;
 }
 
 /*Styling for partnerships page*/
@@ -1214,4 +1227,227 @@ a {
 
 #non-menu {
   display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+  /*our research */
+  .mobile-flask-icon {
+    display: none;
+  }
+  .page-title {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 60px;
+  }
+  .cb1 {
+    width: 16.5%;
+  }
+  .cb2 {
+    opacity: 0;
+    width: 16.59%;
+  }
+  .cb3 {
+    width: 16.59%;
+  }
+  .cb4 {
+    width: 16.59%;
+  }
+  .cb5 {
+    width: 16.59%
+  }
+  .cb6 {
+    width: 16.59%;
+  }
+  .research-description{
+      border-bottom-width: 0px;
+  }
+  .research-description h2{
+    font-size: 35px;
+    line-height: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #3D3C3C;
+  }
+  .research-description h3{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  /*our people */
+  .mobile-users{
+    display: none;
+  }
+  .mobile-right-button{
+    display: none;
+  }
+  .mobile-left-button{
+    display: none;
+  }
+  #desktop-l-btn {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    padding-top: 20px;
+    width: 100px;
+    height: 120px;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+  }
+
+  #desktop-r-btn {
+    display: inline-block;
+    margin-right: 5%;
+    padding-top: 20px;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    float: right;
+  }
+
+  .desktop-left-button {
+    display: inline-block;
+    float: left;
+    margin-top: 300px;
+  }
+
+  .desktop-right-button {
+    display: inline-block;
+    float: right;
+    margin-top: 300px;
+  }
+
+  .desktop-r-icon {
+    display: inline-block;
+    height: 100px;
+  }
+
+  .desktop-l-icon {
+    display: inline-block;
+    height: 100px;
+  }
+  .portrait {
+    padding-top: 30px;
+    height: 450px;
+  }
+  .footer-container{
+    border-top-color: #707070;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+  }
+  /*partnerships*/
+  .partnership-banners{
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: auto;
+    width: 30%;
+  }
+  .mobile-handshake{
+    display: none;
+  }
+  /*contact us*/
+  .mobile-phone{
+    display: none;
+  }
+  .contacts{
+    border-color: #707070;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 50%;
+    width: 49.5%;
+    display: inline-block;
+  }
+  .contacts img {
+    float: none;
+  }
+
+  .map-symbol {
+    width: 100px;
+    margin-top: 0%;
+  }
+
+  .envelope-symbol {
+    width: 150px;
+    margin-top: 50%;
+  }
+
+  .phone-symbol {
+    width: 150px;
+    margin-top: 50%;
+  }
+
+  .mibs-symbol {
+    width: 250px;
+    margin-top: 50%;
+  }
+
+  .contact-list h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    word-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .contacts-symbol {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    padding-left: 8%;
+  }
+
+  .mibs-contacts-symbol {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    padding-left: 3%;
+  }
+
+  .contacts-text1 {
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    padding-right: 10px;
+  }
+
+  .contacts-text2 {
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    padding-right: 50px;
+  }
+
+  .contacts-text3 {
+    display: inline-block;
+    float: right;
+    margin-top: 130px;
+    padding-right: 50px;
+  }
+
+  .contacts-text4 {
+    display: inline-block;
+    float: right;
+    margin-top: 130px;
+    padding-right: 280px;
+  }
 }
