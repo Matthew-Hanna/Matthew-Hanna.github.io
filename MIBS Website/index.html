@@ -41,9 +41,6 @@
           <h1>Partnerships</h1>
         </div>
       </a>
-      <div class="mobile-users">
-        <img src="users-solid.svg" class="mobile-users-icon" />
-      </div>
       <div class="index-menu" onclick="menuanimationFunction(this)">
         <div class="menu-box">
           <div class="bar1"></div>
@@ -54,47 +51,89 @@
     </div>
   </section>
 
-  <section>
+  <section id="menu">
+    <div class="menu-title">
+      <h2 class="page-title2">Menu</h2>
+    </div>
+    <div class="link-banner">
+      <div class="menu-text">
+        <h2>Home Page</h2>
+      </div>
+      <div class="icon-square">
+        <a href="index.html"><img src="home-solid.svg" class="menu-icons"></a>
+      </div>
+    </div>
+    <div class="link-banner">
+      <div class="menu-text">
+        <h2>Our Research</h2>
+      </div>
+      <div class="icon-square">
+      <a href="our-research.html"><img src="flask-solid.svg" class="menu-icons"></a>
+      </div>
+    </div>
+    <div class="link-banner">
+      <div class="menu-text">
+        <h2>Our People</h2>
+      </div>
+      <div class="icon-square">
+      <a href="our-people.html"><img src="users-solid.svg" class="menu-icons"></a>
+      </div>
+    </div>
+    <div class="link-banner">
+      <div class="menu-text">
+        <h2>Partnerships</h2>
+      </div>
+      <div class="icon-square">
+        <a href="partnerships.html"> <img src="handshake-regular.svg" class="menu-icons"></a>
+      </div>
+    </div>
+    <div class="link-banner">
+      <div class="menu-text">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="icon-square">
+        <a href="contact-us.html"><img src="phone-solid.svg" class="menu-icons"></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="non-menu">
     <div class="index-welcome">
-      <h2 class="page-title">Our People</h2>
+      <h2 class="welcome">Welcome to the Material Interaction <br class="welcome-break"> with Biological <br class="desktop-welcome-break">Systems Lab at the Univeristy of Waterloo</h2>
     </div>
-  </section>
-
-  <section class="people-slideshow">
-    <div class="people-slides">
-      <div class="mobile-left-button">
-        <button onclick="plusSlides(-1)" id="mobile-l-btn" </button>
-        <img src="caret-left-solid.svg" class="mobile-l-icon" />
-      </div>
-      <div class="slideshow-portraits fade">
-        <img src="einstein-portrait.jpg" class="portrait" />
-      </div>
-      <div class="slideshow-portraits  fade">
-        <img src="currie-portrait.jpg" class="portrait">
-      </div>
-      <div class="slideshow-portraits fade">
-        <img src="m-researcher.png" class="portrait">
-      </div>
-      <div class="slideshow-portraits fade">
-        <img src="f-researcher.png" class="portrait">
-      </div>
-      <div class="mobile-right-button">
-        <button onclick="plusSlides(1)" id="mobile-r-btn" </button>
-        <img src="caret-right-solid.svg" class="mobile-r-icon" />
-      </div>
+    <div class="slideshow-pics fade">
+      <img src="lab-stock-photo.jpg" class="lab-photo" />
     </div>
-  </section>
-
-  <section>
-    <div class="people-description">
-      <h2>Vestibulum Eleifend, <br> Biomedical Engineer</h2>
+    <div class="slideshow-pics  fade">
+      <img src="microscope.jpg" class="lab-photo">
+    </div>
+    <div class="slideshow-pics fade">
+      <img src="pipette-photo.jpg" class="lab-photo">
+    </div>
+    <div class="slideshow-pics fade">
+      <img src="group-photo.jpg" class="lab-photo">
+    </div>
+    <div class="slideshow-controls">
+      <button class="control-box1" onclick="currentSlide(1)">
+            </button>
+      <div class="line">
+      </div>
+      <button class="control-box2" onclick="currentSlide(2)">
+            </button>
+      <div class="line">
+      </div>
+      <button class="control-box3" onclick="currentSlide(3)">
+            </button>
+      <div class="line">
+      </div>
+      <button class="control-box4" onclick="currentSlide(4)">
+            </button>
+    </div>
+    <div class="description">
       <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id risus fermentum, posuere est et, suscipit erat. Donec eget vehicula nisl. Morbi dolor ligula, tristique ut felis in, imperdiet ultrices orci. Mauris sit amet sapien sed ipsum feugiat ultricies ac nec neque. Nam a varius tellus. Etiam efficitur gravida elit et vulputate. Suspendisse sodales urna id nisl ultrices, eu bibendum augue ornare. Nunc et lacus nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br> <br> Mauris condimentum ac magna id lacinia. Nullam scelerisque lectus eget nisl tincidunt, non mattis erat molestie. Vivamus et metus vestibulum, eleifend nibh non, placerat sem. Vestibulum eleifend augue leo. Nullam id massa congue, rhoncus dolor quis, molestie diam. Nulla ullamcorper nunc ut tellus posuere varius. Nulla id risus fermentum, posuere est et, suscipit erat. Donec eget vehicula nisl.Nunc et lacus nunc. Suspendisse sodales urna id nisl ultrices, eu bibendum augue ornare. Lorem ipsum dolor sit amet, insolens mediocrem at eum, quem suas veritus has in. Has ne autem illum theophrastus. Summo oratio insolens ad has. No nec cibo augue simul, no vocibus noluisse disputationi vis. Movet exerci verear ei eum, sit patrioque disputando cu, eu veniam tamquam scaevola cum.
         Soluta detracto sit an, ut eam dicunt accusam, eu quo lucilius praesent vituperatoribus. Sed mundi appetere cu, sit an semper everti, vel everti euismod posidonium eu. Ne vel omittantur dissentiet, no eam vitae prodesset, his pericula mediocrem no. Homero viderer diceret in qui. Eu vix purto erant melius.
       </h3>
     </div>
-  </section>
-
-  <section>
     <div class="footer-container">
       <div class="contact-info">
         <h3>Contact Us:</h3>
@@ -111,7 +150,7 @@
                     <h2>TOP</h2>
                     <img src="angle-double-up-solid.svg" class="to-top-icon" />
                 </button>
-          <a href="share.html">
+        <a href="share.html">
           <div class="share-button">
             <h2>SHARE</h2>
             <img src="share-alt-solid.svg" class="share-icon" />
@@ -134,6 +173,7 @@
       </div>
     </div>
   </section>
+
   <script src="main.js">
   </script>
 </body>

@@ -820,10 +820,31 @@ a {
   cursor: pointer;
 }
 
-.description h2 {
+.research-description {
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  display: none;
+}
+
+.research-description h2 {
   padding-top: 30px;
   font-size: 35px;
   font-weight: 450;
+  font-family: Segoe UI;
+  word-spacing: 1px;
+  line-height: 25px;
+  color: #3D3C3C;
+  text-align: center;
+}
+
+.research-description h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
   font-family: Segoe UI;
   word-spacing: 1px;
   line-height: 25px;
@@ -844,25 +865,37 @@ a {
   display: inline-block;
 }
 
-.people-slideshow button {}
-
 #mobile-l-btn {
   display: inline-block;
   float: left;
-  vertical-align: middle;
   margin-left: 3%;
+  padding-top: 20px;
+  width: 100px;
+  height: 120px;
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  margin-top: 300px;
 }
 
 #mobile-r-btn {
   display: inline-block;
   margin-right: 3%;
-  margin-top: auto;
+  margin-top: -480px;
+  padding-top: 20px;
+  text-align: center;
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+  float: right;
 }
 
 .mobile-r-icon {
   display: inline-block;
   height: 150px;
-  margin-right: 3%;
 }
 
 .mobile-l-icon {
@@ -877,7 +910,6 @@ a {
 }
 
 .portrait {
-  height: auto;
   padding-top: 40px;
   padding-bottom: 40px;
   height: 700px;
@@ -885,7 +917,19 @@ a {
 
 .people-slides {
   width: 100%;
-  display: inline-block;
+  display: block;
+  text-align: center;
+}
+
+.research-description h4 {
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: 350;
+  font-family: Segoe UI;
+  word-spacing: 1px;
+  line-height: 50px;
+  color: #3D3C3C;
+  text-align: center;
 }
 
 /*Styling for partnerships page*/
@@ -1060,9 +1104,11 @@ a {
   width: 300px;
   margin-top: 30px;
 }
-.share{
+
+.share {
   height: auto;
 }
+
 .contact-info-share {
   padding-top: 5px;
   padding-left: 40px;
@@ -1091,4 +1137,81 @@ a {
   word-spacing: 2px;
   line-height: 43px;
   padding-bottom: 20px;
+}
+
+/*Styling for menu*/
+
+.menu-title {
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  background-color: rgba(186, 194, 209, .55);
+  height: 125px;
+}
+
+.page-title2 {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: Segoe UI;
+  line-height: 70px;
+  color: #3D3C3C;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.link-banner {
+  display: block;
+  background-color: #3D3C3C;
+  margin-top: 80px;
+  height: 200px;
+}
+
+.menu-icons {
+  height: 150px;
+  margin-top: 20px;
+}
+
+.link-banner h2 {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-left: 15%;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: Segoe UI;
+  line-height: 70px;
+  color: #FFF;
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.icon-square {
+  background-color: #FFF;
+  display: inline-block;
+  width: 200px;
+  height: 196px;
+  float: right;
+  text-align: center;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-top-color: #707070;
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
+.menu-text {
+  float: left;
+}
+
+#menu {
+  display: none;
+}
+
+#non-menu {
+  display: block;
 }
