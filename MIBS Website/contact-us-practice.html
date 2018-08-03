@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="contact-us">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style-practice.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 <head>
   <title>MIBS</title>
   <link rel="icon" type="image/jpg" href="MIBS-Symbol.jpg" />
 </head>
 
-<body class="index">
+<body class="contact-us">
   <section>
     <div class="top-wrapper">
       <a href="our-research.html">
@@ -41,10 +42,10 @@
           <h1>Partnerships</h1>
         </div>
       </a>
-      <div class="mobile-handshake">
-        <img src="handshake-regular.svg" class="mobile-handshake-icon" />
+      <div class="mobile-phone">
+        <img src="phone-solid.svg" class="mobile-phone-icon" />
       </div>
-      <div class="index-menu" onclick="menuanimationFunction(this)">
+      <div class="index-menu" onclick="altmenuanimationFunction(this)">
         <div class="menu-box">
           <div class="bar1"></div>
           <div class="bar2"></div>
@@ -71,7 +72,7 @@
         <h2>Our Research</h2>
       </div>
       <div class="icon-square">
-        <a href="our-research.html"><img src="flask-solid.svg" class="menu-icons"></a>
+      <a href="our-research.html"><img src="flask-solid.svg" class="menu-icons"></a>
       </div>
     </div>
     <div class="link-banner">
@@ -79,7 +80,7 @@
         <h2>Our People</h2>
       </div>
       <div class="icon-square">
-        <a href="our-people.html"><img src="users-solid.svg" class="menu-icons"></a>
+      <a href="our-people.html"><img src="users-solid.svg" class="menu-icons"></a>
       </div>
     </div>
     <div class="link-banner">
@@ -102,57 +103,45 @@
 
   <section id="non-menu">
     <div class="index-welcome">
-      <h2 class="page-title">Partnerships</h2>
-    </div>
-    <div class="partnership-logos">
-      <img src="penta-banner.png" class="partnership-banners">
-      <img src="waterloo-banner.png" class="partnership-banners">
-      <img src="ontario-banner.png" class="partnership-banners">
-      <img src="lenovo-banner.png" class="partnership-banners">
-      <img src="penta-banner.png" class="partnership-banners">
-      <img src="waterloo-banner.png" class="partnership-banners">
-      <img src="ontario-banner.png" class="partnership-banners">
-      <img src="lenovo-banner.png" class="partnership-banners">
-    </div>
-    <div class="footer-container">
-      <div class="contact-info">
-        <h3>Contact Us:</h3>
-        <ul>
-          <li>MIBS LABS</li>
-          <li>University of Waterloo, CPH, Room 1335C</li>
-          <li>200 University Avenue West</li>
-          <li>Waterloo, Ontario, N2L 3G1</li>
-          <li>Phone Number</li>
-        </ul>
-      </div>
-      <div class="footer-buttons">
-        <button onclick="topFunction()" id="to-top-btn-2">
-                    <h2>TOP</h2>
-                    <img src="angle-double-up-solid.svg" class="to-top-icon" />
-                </button>
-        <a href="share.html">
-          <div class="share-button">
-            <h2>SHARE</h2>
-            <img src="share-alt-solid.svg" class="share-icon" />
-          </div>
-        </a>
-        <div class="to-top-button">
-          <button onclick="topFunction()" id="to-top-btn" </button>
-          <img src="angle-double-up-solid.svg" class="to-top-icon" />
-        </div>
-      </div>
-      <div class="recent-projects">
-        <h3>Recent Projects:</h3>
-        <ul>
-          <li>Project 1- Nulla ullamcorper nunc ut tellus posuere</li>
-          <li> Project 2 - Mauris condimentum ac magna id lacinia</li>
-          <li> Project 3- Donec eget vehicula nisl</li>
-          <li> Project 4- Proin egestas hendrerit dui vitae dictum</li>
-          <li>Project 5- Mauris quis ante eu erat fermentum</li>
-        </ul>
-      </div>
+      <h2 class="page-title">Contact Us</h2>
     </div>
   </section>
+
+    <div class="contact-list">
+      <div class="contacts">
+        <div class="contacts-symbol">
+          <img src="blue-map-marker.png" class="map-symbol">
+        </div>
+        <div class="contacts-text1">
+          <h2 class="page-title">University of Waterloo, <br class="mobile-break"> CPH, Room 1335 <br> 200 University Avenue West <br> Waterloo, Ontario, N2L 3G1</h2>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="contacts-symbol">
+          <img src="blue-envelope.png" class="envelope-symbol">
+        </div>
+        <div class="contacts-text2">
+          <h2 class="page-title">someone@uwaterloo.ca</h2>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="contacts-symbol">
+          <img src="blue-phone-solid.png" class="phone-symbol">
+        </div>
+        <div class="contacts-text3">
+          <h2 class="page-title">250-309-6569 Ext. 78313</h2>
+        </div>
+      </div>
+        <div class="contacts">
+          <div class="mibs-contacts-symbol">
+            <img src="blue-mibs.jpg" class="mibs-symbol">
+          </div>
+          <div class="contacts-text4">
+            <h2 class="page-title">MIBS.ca</h2>
+          </div>
+        </div>
+      </div>
+
   <script src="main.js">
   </script>
 </body>

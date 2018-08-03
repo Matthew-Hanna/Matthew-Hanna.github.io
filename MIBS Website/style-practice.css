@@ -595,13 +595,13 @@ button {
     width: calc(25% - 1px);
   }
   .control-box2 {
-    width: calc(25% - 1px);
+      width: calc(25% - 1px);
   }
   .control-box3 {
-    width: calc(25% - 1px);
+      width: calc(25% - 1px);
   }
   .control-box4 {
-    width: calc(25% - 1px);
+      width: calc(25% - 1px);
   }
   .description {
     border-bottom-color: #707070;
@@ -938,12 +938,10 @@ button {
   color: #3D3C3C;
   text-align: center;
 }
-
-.desktop-left-button {
+.desktop-left-button{
   display: none;
 }
-
-.desktop-right-button {
+.desktop-right-button{
   display: none;
 }
 
@@ -976,10 +974,6 @@ button {
 
 .contact-us {
   height: 100%;
-}
-
-.contact-recent-projects {
-  display: none;
 }
 
 .contact-list {
@@ -1070,10 +1064,9 @@ button {
 
 /*Styling for share page*/
 
-#non-menu2 {
+#non-menu2{
   height: 100%;
 }
-
 .mobile-phone-icon {
   display: inline-block;
   height: 95px;
@@ -1085,7 +1078,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: calc( 100% - 572.6px);
+  height: calc( 100% - 500px);
 }
 
 .left {
@@ -1109,7 +1102,7 @@ button {
 
 .contact-info-share {
   padding-top: 5px;
-  padding-left: 0px;
+  padding-left: 40px;
   font-family: Segoe UI;
   color: #3D3C3C;
   text-align: center;
@@ -1214,339 +1207,285 @@ button {
   display: block;
 }
 
-@media only screen and (min-width: 420px) {
-  @media only screen and (min-width: 1000px) {
-    /*our research */
-    .mobile-flask-icon {
-      display: none;
-    }
-    .page-title {
-      padding-top: 9px;
-      padding-bottom: 9px;
-      width: 100%;
-      font-size: 40px;
-      font-weight: 350;
-      line-height: 60px;
-    }
-    .cb1 {
-      width: calc(16.67% - 1px);
-    }
-    .cb2 {
-      opacity: 0;
-      width: calc(16.67% - 1px);
-    }
-    .cb3 {
-      width: calc(16.67% - 1px);
-    }
-    .cb4 {
-      width: calc(16.67% - 1px);
-    }
-    .cb5 {
-      width: calc(16.67% - 1px);
-    }
-    .cb6 {
-      width: calc(16.67% - 1px);
-    }
-    .research-description {
-      border-bottom-width: 0px;
-    }
-    .research-description h2 {
-      font-size: 35px;
-      line-height: 50px;
-      padding-top: 10px;
-      font-weight: bold;
-      color: #3D3C3C;
-    }
-    .research-description h3 {
-      padding-top: 10px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 20px;
-      margin-left: 12%;
-      margin-right: 12%;
-      font-size: 16px;
-      font-weight: 400;
-      word-spacing: 1px;
-      line-height: 30px;
-      color: #3D3C3C;
-    }
-    /*our people */
-    .mobile-users {
-      display: none;
-    }
-    .mobile-right-button {
-      display: none;
-    }
-    .mobile-left-button {
-      display: none;
-    }
-    #desktop-l-btn {
-      display: inline-block;
-      float: left;
-      margin-left: 5%;
-      padding-top: 20px;
-      width: 100px;
-      height: 120px;
-      display: inline;
-      margin: 0 auto;
-      text-align: center;
-      background: transparent;
-      border: none !important;
-      font-size: 0;
-    }
-    #desktop-r-btn {
-      display: inline-block;
-      margin-right: 5%;
-      padding-top: 20px;
-      text-align: center;
-      background: transparent;
-      border: none !important;
-      font-size: 0;
-      float: right;
-    }
-    .desktop-left-button {
-      display: inline-block;
-      float: left;
-      margin-top: 300px;
-    }
-    .desktop-right-button {
-      display: inline-block;
-      float: right;
-      margin-top: 300px;
-    }
-    .desktop-r-icon {
-      display: inline-block;
-      height: 100px;
-    }
-    .desktop-l-icon {
-      display: inline-block;
-      height: 100px;
-    }
-    .portrait {
-      padding-top: 30px;
-      height: 450px;
-    }
-    .footer-container {
-      border-top-color: #707070;
-      border-top-style: solid;
-      border-top-width: 1.5px;
-    }
-    /*partnerships*/
-    .partnership-banners {
-      display: inline-block;
-      padding-bottom: 50px;
-      padding-right: 100px;
-      padding-left: 100px;
-      padding-top: 50px;
-      margin: auto;
-      width: 30%;
-    }
-    .mobile-handshake {
-      display: none;
-    }
-    /*contact us*/
-    .mobile-phone {
-      display: none;
-    }
-    .contact-list {
-      height: calc( 100% - 151px);
-      display: flex;
-      flex-flow: wrap;
-      align-items: center;
-    }
-    .contacts {
-      border-color: #707070;
-      border-style: solid;
-      border-width: 1.5px;
-      height: calc(50% - 3px);
-      width: calc(50% - 3px);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .map-symbol {
-      height: 120px;
-      width: auto;
-    }
-    .envelope-symbol {
-      width: auto;
-      height: 120px;
-    }
-    .phone-symbol {
-      width: auto;
-      height: 120px;
-    }
-    .mibs-symbol {
-      height: 120px;
-      width: auto;
-    }
-    .contact-list h2 {
-      color: #FFF;
-      font-size: 30px;
-      font-weight: 400;
-      font-family: Segoe UI;
-      word-spacing: 1px;
-      line-height: 40px;
-      text-align: center;
-      margin: none;
-      display: inline-block;
-      float: none;
-      width: 100%;
-    }
-    .contacts-symbol {
-      width: auto;
-      height: 50%;
-      padding-left: 0%;
-      display: flex;
-      align-items: center;
-      text-align: center;
-    }
-    .contacts-text1{
-      height: 50%;
-      display: flex;
-      align-items: center;
-    }
-    .contacts-text2{
-      height: 50%;
-      display: flex;
-      align-items: center;
-    }
-    .contacts-text3{
-      height: 50%;
-      display: flex;
-      align-items: center;
-    }
-    .contacts-text4{
-      height: 50%;
-      display: flex;
-      align-items: center;
-    }
-    .mibs-contacts-symbol {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      width: auto;
-      height: 50%;
-      padding-left: 0%;
-    }
-    .mobile-break {
-      display: none;
-    }
-    /*share styling*/
-    .mobile-phone {
-      display: none;
-    }
-    #non-menu2 {
-      height: 100%;
-    }
-    .share-div {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      height: calc( 100% - 151px);
-      border-color: #707070;
-      border-style: solid;
-      border-width: 1px;
-    }
-    .left {
-      width: 33%;
-      display: inline-block;
-    }
-    .right {
-      width: 33%;
-      display: inline-block;
-    }
-    .share-icon-list {
-      width: 200px;
-    }
-    .last-share-icon {
-      width: 200px;
-      margin-top: 30px
-    }
-    .contact-info-share {
-      padding-top: 5px;
-      padding-left: 0px;
-      font-family: Segoe UI;
-      color: #3D3C3C;
-      text-align: center;
-      background-color: #C5ECFF;
-      font-weight: 350;
-      height: 150px;
-      border-top-style: none;
-    }
-    .contact-info-share h3 {
-      font-size: 20px;
-      font-weight: 400;
-      word-spacing: 2px;
-      line-height: 65px;
-    }
-    .contact-recent-projects {
-      display: inline-block;
-      padding-top: 5px;
-      padding-left: 0px;
-      font-family: Segoe UI;
-      color: #3D3C3C;
-      text-align: left;
-      background-color: #C5ECFF;
-      width: 100%;
-      float: left;
-      font-weight: 350;
-      height: 150px;
-      border-top-style: none;
-      margin-left: 20px;
-    }
-    .contact-recent-projects ul {
-      font-size: 16px;
-      word-spacing: 2px;
-      line-height: 20px;
-      padding-bottom: 10px;
-      margin-left: 5%;
-      height: auto;
-    }
-    .contact-info-share ul {
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 30px;
-      padding-bottom: 20px;
-    }
-    .share-footer-container {
-      border-top-color: #707070;
-      border-top-style: solid;
-      border-top-width: 1.5px;
-      height: 155px;
-      display: flex;
-      background-color: #C5ECFF;
-    }
-    .share-footer-container ul {
-      list-style-type: none;
-    }
-    .contact-recent-projects h3 {
-      font-weight: 350;
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 40px;
-      margin-left: 5%;
-    }
-    .contact-info-share {
-      padding-top: 5px;
-      padding-left: 0%;
-      color: #3D3C3C;
-      text-align: center;
-    }
-    .contact-info-share h3 {
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 40px;
-      padding-left: 10%;
-    }
-    .contact-info-share ul {
-      font-size: 16px;
-      word-spacing: 2px;
-      line-height: 20px;
-      padding-bottom: 10px;
-      padding-left: 10%;
-      height: auto;
-    }
+@media only screen and (min-width: 1000px) {
+  /*our research */
+  .mobile-flask-icon {
+    display: none;
   }
+  .page-title {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 60px;
+  }
+  .cb1 {
+    width: calc(16.67% - 1px);
+  }
+  .cb2 {
+    opacity: 0;
+    width: calc(16.67% - 1px);
+  }
+  .cb3 {
+  width: calc(16.67% - 1px);
+  }
+  .cb4 {
+  width: calc(16.67% - 1px);
+  }
+  .cb5 {
+    width: calc(16.67% - 1px);
+  }
+  .cb6 {
+    width: calc(16.67% - 1px);
+  }
+  .research-description{
+      border-bottom-width: 0px;
+  }
+  .research-description h2{
+    font-size: 35px;
+    line-height: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #3D3C3C;
+  }
+  .research-description h3{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  /*our people */
+  .mobile-users{
+    display: none;
+  }
+  .mobile-right-button{
+    display: none;
+  }
+  .mobile-left-button{
+    display: none;
+  }
+  #desktop-l-btn {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    padding-top: 20px;
+    width: 100px;
+    height: 120px;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+  }
+
+  #desktop-r-btn {
+    display: inline-block;
+    margin-right: 5%;
+    padding-top: 20px;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    float: right;
+  }
+
+  .desktop-left-button {
+    display: inline-block;
+    float: left;
+    margin-top: 300px;
+  }
+
+  .desktop-right-button {
+    display: inline-block;
+    float: right;
+    margin-top: 300px;
+  }
+
+  .desktop-r-icon {
+    display: inline-block;
+    height: 100px;
+  }
+
+  .desktop-l-icon {
+    display: inline-block;
+    height: 100px;
+  }
+  .portrait {
+    padding-top: 30px;
+    height: 450px;
+  }
+  .footer-container{
+    border-top-color: #707070;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+  }
+  /*partnerships*/
+  .partnership-banners{
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: auto;
+    width: 30%;
+  }
+  .mobile-handshake{
+    display: none;
+  }
+  /*contact us*/
+  .mobile-phone{
+    display: none;
+  }
+  .contact-list{
+    height: calc( 100% - 151px);
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  .contacts{
+    border-color: #707070;
+    border-style: solid;
+    border-width: 1.5px;
+    height: calc(49.9% - 1.5px);
+    width: calc(49.9% - 1.5px);
+    display: inline-block;
+  }
+
+  .map-symbol {
+    height: 150px;
+    width: auto;
+  }
+
+  .envelope-symbol {
+    width: auto;
+    height:150px;
+  }
+
+  .phone-symbol {
+    width: auto;
+    height: 140px;
+  }
+
+  .mibs-symbol {
+    height: 150px;
+    width: auto;
+  }
+
+  .contact-list div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .contact-list h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    word-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .contacts-symbol {
+    width: 100%;
+    display: block;
+    height: 40%;
+    }
+
+  .mibs-contacts-symbol {
+    width: 100%;
+    height: 40%;
+    padding-left: 0%;
+  }
+  .mobile-break{
+    display: none;
+  }
+  /* Share */
+  .mobile-phone-icon {
+    display: inline-block;
+    height: 95px;
+    margin-bottom: 20px;
+  }
+
+  .share-div {
+    display: block;
+  }
+
+  .mobile-phone {
+    margin-left: 35%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .right {
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .share-icon-list {
+    width: 300px;
+  }
+
+  .last-share-icon {
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  .share {
+    height: auto;
+  }
+
+  .contact-info-share {
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: Segoe UI;
+    color: #3D3C3C;
+    text-align: center;
+    background-color: #C5ECFF;
+    width: 100%;
+    float: left;
+    font-weight: 350;
+    height: 301px;
+    border-top-color: #707070;
+    border-top-style: solid;
+    border-top-width: 4px;
+  }
+
+  .contact-info-share h3 {
+    font-size: 40px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 65px;
+  }
+
+  .contact-info-share ul {
+    font-size: 24px;
+    word-spacing: 2px;
+    line-height: 43px;
+    padding-bottom: 20px;
+  }
+}
