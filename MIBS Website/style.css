@@ -1008,6 +1008,20 @@ button {
   margin: auto;
   width: 80%;
 }
+.ontario-banner{
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: auto;
+  width: 90%;
+}
+.stMarys-banner{
+  display: inline-block;
+  padding: 0px;
+  margin: none;
+  width: 65%;
+  padding-bottom: 30px;
+}
 
 /*Styling for contacts page*/
 
@@ -1502,6 +1516,7 @@ button {
     .people-description3 {
       display: none;
       width: 45%;
+      height: auto;
       padding: 0px;
       margin-left: 0%;
       margin-right: 0%;
@@ -1529,6 +1544,12 @@ button {
       padding: 0px;
       margin: none;
       width: 80%;
+    }
+    .ontario-banners{
+      display: inline-block;
+      padding: 0px;
+      margin: none;
+      width: 90%;
     }
     .mobile-handshake {
       display: none;

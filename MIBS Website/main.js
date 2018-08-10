@@ -73,9 +73,9 @@ function showPeople(n) {
   var slides3 = document.getElementsByClassName("slideshow-pics3");
   var title1 = document.getElementsByClassName("people-title");
   var title2 = document.getElementsByClassName("people-title2");
-  var description1 = document.getElementsByClassName("people-description1")
-  var description2 = document.getElementsByClassName("people-description2")
-  var description3 = document.getElementsByClassName("people-description3")
+  var description1 = document.getElementsByClassName("people-description1");
+  var description2 = document.getElementsByClassName("people-description2");
+  var description3 = document.getElementsByClassName("people-description3");
 
   if (n > slides1.length) {
     slideIndex = 1;
@@ -123,7 +123,7 @@ function showPeople(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slideshow-pics");
-  var description = document.getElementsByClassName("research-description")
+  var description = document.getElementsByClassName("research-description");
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -139,8 +139,3 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   description[slideIndex - 1].style.display = "block";
 }
-
-FB.ui({
-  method: 'share',
-  href: 'https://developers.facebook.com/docs/',
-}, function(response){});

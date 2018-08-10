@@ -12,6 +12,24 @@
 </head>
 
 <body class="contact-us">
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.1'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
   <section>
     <div class="top-wrapper">
       <a href="our-research.html">
@@ -130,11 +148,10 @@
       <div class="contact-recent-projects">
       <a href="our-research.html"><h3>Recent Projects:</h3></a>
         <ul>
-          <li>Project 1- Nulla ullamcorper nunc ut tellus posuere</li>
-          <li> Project 2 - Mauris condimentum ac magna id lacinia</li>
-          <li> Project 3- Donec eget vehicula nisl</li>
-          <li> Project 4- Proin egestas hendrerit dui vitae dictum</li>
-          <li>Project 5- Mauris quis ante eu erat fermentum</li>
+          <li>-Prediction of Cardiopulmonary Bypass Bleeding Outcomes</li>
+          <li>-Latanoprost Release from Contact Lens Materials</li>
+          <li>-Understanding the Tear Film Neutrophil</li>
+          <li>-Infrared Therapy in Healthy and Diabetic Conditions</li>
         </ul>
       </div>
       <div class="contact-info-share">
