@@ -12,15 +12,6 @@
 </head>
 
 <body class="contact-us">
-  <script>
-document.getElementById('fbBtn').onclick = function() {
-  FB.ui({
-    method: 'share',
-    mobile_iframe: true,
-    href: 'https://developers.facebook.com/docs/',
-  }, function(response){});
-}
-</script>
   <section>
     <div class="top-wrapper">
       <a href="our-research.html">
@@ -169,6 +160,15 @@ document.getElementById('fbBtn').onclick = function() {
     </div>
   </section>
   <script src="main.js">
+  </script>
+  <script>
+  document.getElementById('fbBtn').onclick = function() {
+    FB.ui({
+      method: 'share',
+      mobile_iframe: true,
+      href: 'https://developers.facebook.com/docs/',
+    }, function(response){});
+  }
   </script>
 </body>
 
