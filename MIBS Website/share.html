@@ -7,9 +7,20 @@
 <head>
   <title>MIBS</title>
   <link rel="icon" type="image/jpg" href="MIBS-Symbol.jpg" />
+  <script src="https://apis.google.com/js/platform.js" async defer>
+  </script>
 </head>
 
 <body class="contact-us">
+  <script>
+document.getElementById('fbBtn').onclick = function() {
+  FB.ui({
+    method: 'share',
+    mobile_iframe: true,
+    href: 'https://developers.facebook.com/docs/',
+  }, function(response){});
+}
+</script>
   <section>
     <div class="top-wrapper">
       <a href="our-research.html">
@@ -105,28 +116,28 @@
       <h2 class="page-title">Share</h2>
     </div>
     <div class="share-div">
-      <div class="left">
+      <div id="fbBtn">
         <img src="facebook.svg" class="share-icon-list">
       </div>
       <div class="right">
-        <img src="linkedin.svg" class="share-icon-list">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://matthew-hanna.github.io/MIBS%20Website/index.html&title=MIBS%20Website&summary=Website&source=https://matthew-hanna.github.io/MIBS%20Website/index.html" target="_blank"><img src="linkedin.svg" class="share-icon-list"></a>
       </div>
       <div class="left">
-        <img src="twitter.svg" class="share-icon-list">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20the%20Material%20Interaction%20with%20Biological%20Systems%20Lab%20Website!" target="_blank">
+         <img src="twitter.svg" class="share-icon-list"> </a>
       </div>
       <div class="right">
-        <img src="snapchat.svg" class="share-icon-list">
-      </div>
-      <div class="left">
-        <img src="instagram.svg" class="share-icon-list">
+        <a href="https://plus.google.com/share?url=future-web-address" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img
+    src="google-plus.svg" alt="Share on Google+" class="share-icon-list"/></a>
       </div>
       <div class="right">
-        <img src="envelope.svg" class="last-share-icon">
+        <a href="mailto:?Subject=MIBS%20Website&body=WebsiteLink" target="_top">  <img src="envelope.svg" class="last-share-icon"></a>
       </div>
     </div>
     <div class="share-footer-container">
       <div class="contact-recent-projects">
-        <h3>Recent Projects:</h3>
+      <a href="our-research.html"><h3>Recent Projects:</h3></a>
         <ul>
           <li>Project 1- Nulla ullamcorper nunc ut tellus posuere</li>
           <li> Project 2 - Mauris condimentum ac magna id lacinia</li>
@@ -136,17 +147,17 @@
         </ul>
       </div>
       <div class="contact-info-share">
-        <h3>Contact Us:</h3>
+        <a href="contact-us.html"><h3>Contact Us:</h3></a>
         <ul>
           <li>MIBS LABS</li>
           <li>University of Waterloo, CPH, Room 1335C</li>
           <li>200 University Avenue West</li>
           <li>Waterloo, Ontario, N2L 3G1</li>
-          <li>Phone Number</li>
+          <li>519-888-4567 Ext. 32602</li>
         </ul>
       </div>
       <div class="contact-recent-projects">
-        <h3>Our People:</h3>
+        <a href="our-people.html"><h3>Our People:</h3></a>
         <ul>
           <li>Project 1- Nulla ullamcorper nunc ut tellus posuere</li>
           <li> Project 2 - Mauris condimentum ac magna id lacinia</li>

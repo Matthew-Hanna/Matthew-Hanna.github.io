@@ -139,3 +139,8 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   description[slideIndex - 1].style.display = "block";
 }
+
+FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/',
+}, function(response){});

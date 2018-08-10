@@ -221,8 +221,7 @@ button {
   padding-top: 20px;
   padding-bottom: 5px;
   width: 100%;
-  height: 600px;
-  image-orientation: flip;
+  height: auto;
 }
 
 .slideshow-controls {
@@ -332,8 +331,8 @@ button {
 
 .description h3 {
   padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 30px;
   font-size: 12px;
   font-weight: 400;
@@ -570,7 +569,7 @@ button {
     width: 70%;
     padding-bottom: 0px;
     padding-top: 10px;
-    height: 550px;
+    height: auto;
   }
   .slideshow-controls {
     border-bottom-width: 1px;
@@ -848,8 +847,8 @@ button {
 
 .research-description h3 {
   padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 30px;
   font-size: 12px;
   font-weight: 400;
@@ -939,7 +938,7 @@ button {
 }
 
 .people-description1 h2 {
-  padding-top: 30px;
+  padding-top: 0px;
   font-size: 35px;
   font-weight: 350;
   font-family: Segoe UI;
@@ -1137,12 +1136,17 @@ button {
 }
 
 .share-icon-list {
-  width: 300px;
+  width: 250px;
+}
+
+#fbBtn{
+  width: 50%;
+  display: inline-block;
 }
 
 .last-share-icon {
-  width: 300px;
-  margin-top: 30px
+  width: 250px;
+  margin-top: 0px
 }
 
 .contact-info-share {
@@ -1426,7 +1430,9 @@ button {
       margin-left: 0%;
       margin-right: 0%;
       text-align: center;
-      display: none;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
     .people-title {
       width: 45%;
@@ -1468,7 +1474,7 @@ button {
     .people-description2 h3{
       padding-left: 10%;
       padding-right: 10%;
-      padding-top: 10px;
+      padding-top: 20px;
       padding-bottom: 10px;
       font-size: 16px;
       font-weight: 400;
@@ -1479,7 +1485,7 @@ button {
     .people-description3 h3{
       padding-left: 10%;
       padding-right: 10%;
-      padding-top: 10px;
+      padding-top: 20px;
       padding-bottom: 10px;
       font-size: 16px;
       font-weight: 400;
@@ -1490,7 +1496,6 @@ button {
     .our-people-text {
       display: flex;
       flex-direction: row;
-      align-items: center;
       justify-content: center;
       padding: 0px;
     }
@@ -1508,14 +1513,22 @@ button {
       border-left-width: 0.75px;
     }
     /*partnerships*/
+    .partnership-logos{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .partnership-container{
+      width: 40%;
+    }
     .partnership-banners {
       display: inline-block;
-      padding-bottom: 50px;
-      padding-right: 100px;
-      padding-left: 100px;
-      padding-top: 50px;
-      margin: auto;
-      width: 30%;
+      padding: 0px;
+      margin: none;
+      width: 80%;
     }
     .mobile-handshake {
       display: none;
@@ -1636,6 +1649,11 @@ button {
     }
     .share-icon-list {
       width: 200px;
+      text-align: center;
+    }
+    #fbBtn{
+      width: 33%;
+      display: inline-block;
     }
     .last-share-icon {
       width: 200px;
