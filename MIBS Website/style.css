@@ -280,7 +280,7 @@ button {
 }
 
 .control-box1 {
-  opacity: 0;
+  opacity: 0.25;
   width: 24.6%;
   background-color: #C5ECFF;
   cursor: pointer;
@@ -288,7 +288,7 @@ button {
 }
 
 .control-box2 {
-  opacity: 0.25;
+  opacity: 0.5;
   width: 24.6%;
   background-color: #C5ECFF;
   cursor: pointer;
@@ -303,24 +303,9 @@ button {
 
 .control-box4 {
   width: 24.6%;
-  background-color: #C5ECFF;
+  opacity: 0.75;
+    background-color: #73C8F2;
   cursor: pointer;
-}
-
-.active, .control-box1:hover {
-  background-color: #717171;
-}
-
-.active, .control-box2:hover {
-  background-color: #717171;
-}
-
-.active, .control-box3:hover {
-  background-color: #717171;
-}
-
-.active, .control-box4:hover {
-  background-color: #717171;
 }
 
 .description {
@@ -589,6 +574,7 @@ button {
   .slideshow-controls button {
     height: 18px;
   }
+
   .line {
     width: 1px;
     height: 18px;
@@ -840,7 +826,7 @@ button {
   font-weight: 450;
   font-family: Segoe UI;
   word-spacing: 1px;
-  line-height: 25px;
+  line-height: 60px;
   color: #3D3C3C;
   text-align: center;
 }
@@ -1309,9 +1295,11 @@ button {
     .research-description h2 {
       font-size: 35px;
       line-height: 50px;
+      font-weight: 450;
       padding-top: 10px;
-      font-weight: bold;
       color: #3D3C3C;
+      padding-left: 15%;
+      padding-right: 15%;
     }
     .research-description h3 {
       padding-top: 10px;
@@ -1476,6 +1464,7 @@ button {
       border-bottom-width: 0px;
       display: none;
       width: 45%;
+      height: 100%;
       padding: 0px;
       margin-left: 0%;
       margin-right: 0%;
@@ -1516,7 +1505,7 @@ button {
     .people-description3 {
       display: none;
       width: 45%;
-      height: auto;
+      height: 100%;
       padding: 0px;
       margin-left: 0%;
       margin-right: 0%;
