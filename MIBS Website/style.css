@@ -1019,6 +1019,10 @@ button {
   display: none;
 }
 
+.contact-people{
+  display: none;
+}
+
 .contact-list {
   background-color: #3D3C3C;
   height: calc(100% - 280px);
@@ -1686,10 +1690,14 @@ button {
       word-spacing: 2px;
       line-height: 65px;
     }
-    .contact-recent-projects {
-      display: inline-block;
+    .share-footer-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-people{
+      display: flex;
       padding-top: 5px;
-      padding-left: 0px;
       font-family: Segoe UI;
       color: #3D3C3C;
       text-align: left;
@@ -1699,7 +1707,30 @@ button {
       font-weight: 350;
       height: 150px;
       border-top-style: none;
-      margin-left: 20px;
+      margin-right: 20px;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .contact-people ul{
+      font-size: 16px;
+      word-spacing: 2px;
+      line-height: 20px;
+      padding-bottom: 10px;
+      height: auto;
+    }
+    .contact-recent-projects {
+      display: inline-block;
+      padding-top: 5px;
+      font-family: Segoe UI;
+      color: #3D3C3C;
+      text-align: left;
+      background-color: #C5ECFF;
+      width: 100%;
+      font-weight: 350;
+      height: 150px;
+      border-top-style: none;
+      margin-left: 0px;
+      margin-right: 0px;
     }
     .contact-recent-projects ul {
       font-size: 16px;
@@ -1732,6 +1763,13 @@ button {
       word-spacing: 2px;
       line-height: 40px;
       margin-left: 5%;
+    }
+    .contact-people h3 {
+      font-weight: 400;
+      font-size: 20px;
+      word-spacing: 2px;
+      line-height: 40px;
+      margin-right: 220px;
     }
     .contact-info-share {
       padding-top: 5px;
