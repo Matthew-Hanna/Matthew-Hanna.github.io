@@ -58,3 +58,13 @@ function showPeople(n) {
   title1[slideIndex - 1].style.display = "block";
   title2[slideIndex - 1].style.display = "block";
 }
+
+var number = Math.floor(Math.random() * 6);
+var number2 = Math.floor(Math.random() * 6);
+while(number == number2)
+{
+  number2 =  Math.floor(Math.random() * 6);
+}
+var people =  document.getElementsByClassName("names");
+people[number].style.display= "none";
+people[number2].style.display= "none";
