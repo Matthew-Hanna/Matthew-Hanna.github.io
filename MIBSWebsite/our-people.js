@@ -1,6 +1,10 @@
 var slideIndex = 1;
 showPeople(slideIndex);
 
+var index = getParameterByName('slide');
+if(index != null)
+  showPeople(slideIndex = index);
+
 function plusSlides(n) {
   showPeople(slideIndex += n);
 }
@@ -68,3 +72,13 @@ while(number == number2)
 var people =  document.getElementsByClassName("names");
 people[number].style.display= "none";
 people[number2].style.display= "none";
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }

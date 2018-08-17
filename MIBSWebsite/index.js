@@ -23,11 +23,11 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-var number = Math.floor(Math.random() * 5);
-var number2 = Math.floor(Math.random() * 5);
+var number = Math.floor(Math.random() * 6);
+var number2 = Math.floor(Math.random() * 6);
 while(number == number2)
 {
-  number2 =  Math.floor(Math.random() * 5);
+  number2 =  Math.floor(Math.random() * 6);
 }
 var people =  document.getElementsByClassName("names");
 people[number].style.display= "none";
