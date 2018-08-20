@@ -2,11 +2,13 @@ var slideIndex = 1;
 showPeople(slideIndex);
 
 var index = getParameterByName('slide');
-if(index != null)
-  showPeople(slideIndex = index);
+if(index != null){
+  showPeople(index);
+}
 
 function plusSlides(n) {
-  showPeople(slideIndex += n);
+  var slideValue = slideIndex + n;
+  showPeople(slideValue);
 }
 
 function showPeople(n) {
@@ -26,6 +28,8 @@ function showPeople(n) {
   if (n < 1) {
     slideIndex = slides1.length;
   }
+  if( n >= 1 && n <= slides1.length)
+  slideIndex = n;
   for (i = 0; i < slides1.length; i++) {
     slides1[i].style.display = "none";
   }
@@ -53,6 +57,7 @@ function showPeople(n) {
   for (i = 0; i < description3.length; i++) {
     description3[i].style.display= "none";
   }
+  console.log(slideIndex);
   slides1[slideIndex - 1].style.display = "block";
   description1[slideIndex - 1].style.display = "block";
   slides2[slideIndex - 1].style.display = "inline-block";
