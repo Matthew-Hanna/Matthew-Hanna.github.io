@@ -646,7 +646,7 @@ button {
     text-align: left;
     background-color: #C5ECFF;
     width: 37%;
-    height: 150px;
+    height: 155px;
     border-right-color: #707070;
     border-right-style: solid;
     border-right-width: 1px;
@@ -686,7 +686,7 @@ button {
   }
   .share-button {
     float: none;
-    height: 155px;
+    height: 160px;
     border-bottom-style: none;
     display: flex;
     flex-direction: column;
