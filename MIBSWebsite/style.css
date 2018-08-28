@@ -154,13 +154,14 @@ button {
   text-align: center;
 }
 
-.menu-right{
+.menu-right {
   float: right;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .mobile-flask-icon {
   display: inline-block;
   height: 95px;
@@ -308,7 +309,7 @@ button {
 
 .control-box2 {
   opacity: 0.5;
-    width: calc(25% - 4px);
+  width: calc(25% - 4px);
   background-color: #C5ECFF;
   cursor: pointer;
 }
@@ -321,9 +322,9 @@ button {
 }
 
 .control-box4 {
-    width: calc(25%);
+  width: calc(25%);
   opacity: 0.75;
-    background-color: #73C8F2;
+  background-color: #73C8F2;
   cursor: pointer;
 }
 
@@ -392,7 +393,7 @@ button {
   display: none;
 }
 
-.footer-buttons{
+.footer-buttons {
   display: flex;
   flex-direction: column;
 }
@@ -461,9 +462,10 @@ button {
   display: none;
 }
 
-.footer-container-desktop{
+.footer-container-desktop {
   display: none;
 }
+
 /* Homepage Desktop Adjustments */
 
 @media only screen and (min-width: 1000px) {
@@ -600,7 +602,6 @@ button {
   .slideshow-controls button {
     height: 18px;
   }
-
   .line {
     width: 1px;
     height: 18px;
@@ -638,13 +639,11 @@ button {
   .footer-container {
     display: none;
   }
-
-  .footer-container-desktop ul{
+  .footer-container-desktop ul {
     height: 160px;
     list-style-type: none;
   }
-
-  .footer-container-desktop{
+  .footer-container-desktop {
     display: flex;
     border-top-style: solid;
     border-top-color: #707070;
@@ -653,7 +652,6 @@ button {
     flex-direction: row;
     justify-content: center;
   }
-
   .contact-info {
     padding-top: 5px;
     padding-left: 0%;
@@ -691,8 +689,7 @@ button {
     font-weight: 50;
     color: #3D3C3C;
   }
-
-  .share-button-desktop h2{
+  .share-button-desktop h2 {
     font-size: 30px;
     word-spacing: 2px;
     line-height: 40px;
@@ -830,7 +827,7 @@ button {
 
 .cb6 {
   opacity: 1;
-    width: calc(16.6%);
+  width: calc(16.6%);
   background-color: #4CAFDF;
   cursor: pointer;
 }
@@ -992,11 +989,13 @@ button {
 }
 
 /*Styling for partnerships page*/
-.bottom-partnership-container{
+
+.bottom-partnership-container {
   border-bottom-color: #707070;
   border-bottom-style: solid;
   border-bottom-width: 4px;
 }
+
 .mobile-handshake-icon {
   display: inline-block;
   height: 95px;
@@ -1018,14 +1017,16 @@ button {
   margin: auto;
   width: 80%;
 }
-.ontario-banner{
+
+.ontario-banner {
   display: block;
   padding-bottom: 50px;
   padding-top: 50px;
   margin: auto;
   width: 90%;
 }
-.stMarys-banner{
+
+.stMarys-banner {
   display: inline-block;
   padding: 0px;
   margin: none;
@@ -1043,7 +1044,7 @@ button {
   display: none;
 }
 
-.contact-people{
+.contact-people {
   display: none;
 }
 
@@ -1166,7 +1167,7 @@ button {
   width: 250px;
 }
 
-#fbBtn{
+#fbBtn {
   width: 50%;
   display: inline-block;
 }
@@ -1283,543 +1284,543 @@ button {
   display: block;
 }
 
-  @media only screen and (min-width: 1000px) {
-    /*our research */
-    .mobile-flask-icon {
-      display: none;
-    }
-    .page-title {
-      padding-top: 9px;
-      padding-bottom: 9px;
-      width: 100%;
-      font-size: 40px;
-      font-weight: 350;
-      line-height: 60px;
-    }
-    .cb1 {
-      width: calc(16.67% - 1px);
-    }
-    .cb2 {
-      opacity: 0;
-      width: calc(16.67% - 1px);
-    }
-    .cb3 {
-      width: calc(16.67% - 1px);
-    }
-    .cb4 {
-      width: calc(16.67% - 1px);
-    }
-    .cb5 {
-      width: calc(16.67% - 1px);
-    }
-    .cb6 {
-      width: calc(16.67% - 1px);
-    }
-    .research-description {
-      border-bottom-width: 0px;
-    }
-    .research-description h2 {
-      font-size: 35px;
-      line-height: 50px;
-      font-weight: 450;
-      padding-top: 10px;
-      color: #3D3C3C;
-      padding-left: 15%;
-      padding-right: 15%;
-    }
-    .research-description h3 {
-      padding-top: 10px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 20px;
-      margin-left: 12%;
-      margin-right: 12%;
-      font-size: 16px;
-      font-weight: 400;
-      word-spacing: 1px;
-      line-height: 30px;
-      color: #3D3C3C;
-    }
-    /*our people */
-    .mobile-users {
-      display: none;
-    }
-    .mobile-right-button {
-      display: none;
-    }
-    .mobile-left-button {
-      display: none;
-    }
-    #desktop-l-btn {
-      display: inline-block;
-      width: 100px;
-      height: 120px;
-      background: transparent;
-      border: none !important;
-      font-size: 0;
-    }
-    #desktop-r-btn {
-      display: inline-block;
-      text-align: center;
-      background: transparent;
-      border: none !important;
-      font-size: 0;
-    }
-    .our-people-flex-container {
-      display: none;
-    }
-    .our-people-flex-container-desktop {
-      display: block;
-    }
-    .our-people-flex-conatiner {
-      display: none;
-    }
-    .our-people-pic {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      margin-top: 0px;
-      align-items: center;
-      justify-content: center;
-    }
-    .slideshow-pics2 {
-      width: 45%;
-      margin: none;
-      display: none;
-      border-right-color: #BAC2D1;
-      border-right-style: solid;
-      border-right-width: 0.75px;
-      text-align: center;
-    }
-    .slideshow-pics3 {
-      width: auto;
-      margin: none;
-      display: none;
-      width: 45%;
-      text-align: center;
-      border-left-color: #BAC2D1;
-      border-left-style: solid;
-      border-left-width: 0.75px;
-    }
-    .desktop-left-button {
-      display: inline-block;
-      width: 5%;
-      text-align: center;
-    }
-    .spacer {
-      width: 5%;
-    }
-    .desktop-right-button {
-      display: inline-block;
-      width: 5%;
-      text-align: center;
-    }
-    .desktop-r-icon {
-      display: inline-block;
-      height: 100px;
-    }
-    .desktop-l-icon {
-      display: inline-block;
-      height: 100px;
-    }
-    .portrait {
-      padding-top: 0px;
-      height: 450px;
-      padding-bottom: none;
-      margin-top: 50px;
-    }
-    .footer-container {
-      border-top-color: #707070;
-      border-top-style: solid;
-      border-top-width: 1.5px;
-    }
-    .our-people-title {
-      padding-top: 0px;
-      font-size: 30px;
-      font-weight: 300;
-      font-family: Segoe UI;
-      word-spacing: 1px;
-      line-height: 40px;
-      color: #3D3C3C;
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: -20px;
-      border-bottom-color: #BAC2D1;
-      border-bottom-style: solid;
-      border-bottom-width: 1.5px;
-    }
-    .our-people-text {
-      padding-top: 10px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 20px;
-      margin-left: 0%;
-      margin-right: 0%;
-      text-align: center;
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
-    .people-title {
-      width: 45%;
-      display: none;
-      text-align: center;
-      border-right-color: #BAC2D1;
-      border-right-style: solid;
-      border-right-width: 0.75px;
-      padding-bottom: 20px;
-    }
-    .people-title h2{
-        font-weight: 400;
-    }
-    .people-title2 {
-      width: 45%;
-      display: none;
-      text-align: center;
-      border-left-color: #BAC2D1;
-      border-left-style: solid;
-      border-left-width: 0.75px;
-      padding-bottom: 20px;
-    }
-    .people-title2 h2{
-        font-weight: 400;
-    }
-    .people-description2 {
-      border-bottom-width: 0px;
-      display: none;
-      width: 45%;
-      height: 100%;
-      padding: 0px;
-      margin-left: 0%;
-      margin-right: 0%;
-      text-align: center;
-      font-family: Segoe UI;
-      border-right-color: #BAC2D1;
-      border-right-style: solid;
-      border-right-width: 0.75px;
-    }
-    .people-description2 h3{
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-size: 16px;
-      font-weight: 400;
-      word-spacing: 1px;
-      line-height: 30px;
-      color: #3D3C3C;
-    }
-    .people-description3 h3{
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-size: 16px;
-      font-weight: 400;
-      word-spacing: 1px;
-      line-height: 30px;
-      color: #3D3C3C;
-    }
-    .our-people-text {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 0px;
-    }
-    .people-description3 {
-      display: none;
-      width: 45%;
-      height: 100%;
-      padding: 0px;
-      margin-left: 0%;
-      margin-right: 0%;
-      color: #3D3C3C;
-      text-align: center;
-      font-family: Segoe UI;
-      border-left-color: #BAC2D1;
-      border-left-style: solid;
-      border-left-width: 0.75px;
-    }
-    /*partnerships*/
-    .partnership-logos{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 30px;
-    }
-    .partnership-container{
-      width: 40%;
-    }
-    .bottom-partnership-container{
-      width: 40%;
-      border: none;
-    }
-    .partnership-banners {
-      display: inline-block;
-      padding: 0px;
-      margin: none;
-      width: 80%;
-    }
-    .ontario-banners{
-      display: inline-block;
-      padding: 0px;
-      margin: none;
-      width: 90%;
-    }
-    .mobile-handshake {
-      display: none;
-    }
-    /*contact us*/
-    .mobile-phone {
-      display: none;
-    }
-    .contact-list {
-      height: calc( 100% - 151px);
-      display: flex;
-      flex-flow: wrap;
-      align-items: center;
-    }
-    .contacts {
-      border-color: #707070;
-      border-style: solid;
-      border-width: 1.5px;
-      height: calc(50% - 3px);
-      width: calc(50% - 3px);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .map-symbol {
-      height: 100px;
-      margin-top: 30px;
-      width: auto;
-    }
-    .envelope-symbol {
-      width: auto;
-      height: 100px;
-    }
-    .phone-symbol {
-      width: auto;
-      height: 100px;
-    }
-    .mibs-symbol {
-      height: 100px;
-      width: auto;
-    }
-    .contact-list h2 {
-      color: #FFF;
-      font-size: 24px;
-      font-weight: 400;
-      font-family: Segoe UI;
-      word-spacing: 1px;
-      line-height: 30px;
-      text-align: center;
-      margin: none;
-      display: inline-block;
-      float: none;
-      width: 100%;
-    }
-    .contacts-symbol {
-      width: auto;
-      height: auto;
-      padding-left: 0;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .contacts-text1 {
-      width: 90%;
-      height: auto;
-    }
-    .contacts-text2 {
-      height: auto;
-      display: flex;
-      align-items: center;
-    }
-    .contacts-text3 {
-      display: flex;
-      align-items: center;
-      height: auto;
-    }
-    .contacts-text4 {
-      height: auto;
-      margin-top: 5px;
-      display: flex;
-      align-items: center;
-    }
-    .mibs-contacts-symbol {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      width: auto;
-      height: 50%;
-      padding-top: 0%;
-      padding-left: 0%;
-    }
-    .mobile-break {
-      display: none;
-    }
-    /*share styling*/
-    .mobile-phone {
-      display: none;
-    }
-    #non-menu2 {
-      height: 100%;
-    }
-    .share-div {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      height: calc( 100% - 151px);
-      border-color: #707070;
-      border-style: none;
-      border-width: 1px;
-    }
-    .left {
-      width: 33%;
-      display: inline-block;
-    }
-    .right {
-      width: 33%;
-      display: inline-block;
-    }
-    .share-icon-list {
-      width: 200px;
-      text-align: center;
-    }
-    #fbBtn{
-      width: 33%;
-      display: inline-block;
-    }
-    .last-share-icon {
-      width: 200px;
-      margin-top: 30px
-    }
-    .contact-info-share {
-      padding-top: 5px;
-      padding-left: 0px;
-      font-family: Segoe UI;
-      color: #3D3C3C;
-      text-align: center;
-      background-color: #C5ECFF;
-      font-weight: 350;
-      height: 150px;
-      border-top-style: none;
-    }
-    .contact-info-share h3 {
-      font-size: 20px;
-      font-weight: 400;
-      word-spacing: 2px;
-      line-height: 65px;
-    }
-    .share-footer-container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 50px;
-    }
-    .contact-people{
-      display: flex;
-      padding-top: 5px;
-      font-family: Segoe UI;
-      color: #3D3C3C;
-      text-align: left;
-      background-color: #C5ECFF;
-      width: 100%;
-      float: left;
-      font-weight: 350;
-      height: 150px;
-      border-top-style: none;
-      margin-right: 20px;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-    .contact-people ul{
-      font-size: 16px;
-      word-spacing: 2px;
-      line-height: 20px;
-      padding-bottom: 10px;
-      height: auto;
-    }
-    .contact-recent-projects {
-      display: inline-block;
-      padding-top: 5px;
-      font-family: Segoe UI;
-      color: #3D3C3C;
-      text-align: left;
-      background-color: #C5ECFF;
-      width: 100%;
-      font-weight: 350;
-      height: 150px;
-      border-top-style: none;
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .contact-recent-projects ul {
-      font-size: 16px;
-      word-spacing: 2px;
-      line-height: 20px;
-      padding-bottom: 10px;
-      margin-left: 5%;
-      height: auto;
-    }
-    .contact-info-share ul {
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 30px;
-      padding-bottom: 20px;
-    }
-    .share-footer-container {
-      border-top-color: #707070;
-      border-top-style: solid;
-      border-top-width: 1.5px;
-      height: 155px;
-      display: flex;
-      background-color: #C5ECFF;
-    }
-    .share-footer-container ul {
-      list-style-type: none;
-    }
-    .contact-recent-projects h3 {
-      font-weight: 400;
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 40px;
-      margin-left: 5%;
-    }
-    .contact-people h3 {
-      font-weight: 400;
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 40px;
-      margin-right: 310px;
-    }
-    .contact-info-share {
-      padding-top: 5px;
-      padding-left: 0%;
-      color: #3D3C3C;
-      text-align: center;
-    }
-    .contact-info-share h3 {
-      font-size: 20px;
-      word-spacing: 2px;
-      line-height: 40px;
-      padding-left: 0%;
-    }
-    .contact-info-share ul {
-      font-size: 16px;
-      word-spacing: 2px;
-      line-height: 20px;
-      padding-bottom: 10px;
-      padding-left: 0%;
-      height: auto;
-    }
+@media only screen and (min-width: 1000px) {
+  /*our research */
+  .mobile-flask-icon {
+    display: none;
   }
+  .page-title {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 350;
+    line-height: 60px;
+  }
+  .cb1 {
+    width: calc(16.67% - 1px);
+  }
+  .cb2 {
+    opacity: 0;
+    width: calc(16.67% - 1px);
+  }
+  .cb3 {
+    width: calc(16.67% - 1px);
+  }
+  .cb4 {
+    width: calc(16.67% - 1px);
+  }
+  .cb5 {
+    width: calc(16.67% - 1px);
+  }
+  .cb6 {
+    width: calc(16.67% - 1px);
+  }
+  .research-description {
+    border-bottom-width: 0px;
+  }
+  .research-description h2 {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 450;
+    padding-top: 10px;
+    color: #3D3C3C;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .research-description h3 {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  /*our people */
+  .mobile-users {
+    display: none;
+  }
+  .mobile-right-button {
+    display: none;
+  }
+  .mobile-left-button {
+    display: none;
+  }
+  #desktop-l-btn {
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+  }
+  #desktop-r-btn {
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+  }
+  .our-people-flex-container {
+    display: none;
+  }
+  .our-people-flex-container-desktop {
+    display: block;
+  }
+  .our-people-flex-conatiner {
+    display: none;
+  }
+  .our-people-pic {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .slideshow-pics2 {
+    width: 45%;
+    margin: none;
+    display: none;
+    border-right-color: #BAC2D1;
+    border-right-style: solid;
+    border-right-width: 0.75px;
+    text-align: center;
+  }
+  .slideshow-pics3 {
+    width: auto;
+    margin: none;
+    display: none;
+    width: 45%;
+    text-align: center;
+    border-left-color: #BAC2D1;
+    border-left-style: solid;
+    border-left-width: 0.75px;
+  }
+  .desktop-left-button {
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+  }
+  .spacer {
+    width: 5%;
+  }
+  .desktop-right-button {
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+  }
+  .desktop-r-icon {
+    display: inline-block;
+    height: 100px;
+  }
+  .desktop-l-icon {
+    display: inline-block;
+    height: 100px;
+  }
+  .portrait {
+    padding-top: 0px;
+    height: 450px;
+    padding-bottom: none;
+    margin-top: 50px;
+  }
+  .footer-container {
+    border-top-color: #707070;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+  }
+  .our-people-title {
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Segoe UI;
+    word-spacing: 1px;
+    line-height: 40px;
+    color: #3D3C3C;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    border-bottom-color: #BAC2D1;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+  }
+  .our-people-text {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .people-title {
+    width: 45%;
+    display: none;
+    text-align: center;
+    border-right-color: #BAC2D1;
+    border-right-style: solid;
+    border-right-width: 0.75px;
+    padding-bottom: 20px;
+  }
+  .people-title h2 {
+    font-weight: 400;
+  }
+  .people-title2 {
+    width: 45%;
+    display: none;
+    text-align: center;
+    border-left-color: #BAC2D1;
+    border-left-style: solid;
+    border-left-width: 0.75px;
+    padding-bottom: 20px;
+  }
+  .people-title2 h2 {
+    font-weight: 400;
+  }
+  .people-description2 {
+    border-bottom-width: 0px;
+    display: none;
+    width: 45%;
+    height: 100%;
+    padding: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    font-family: Segoe UI;
+    border-right-color: #BAC2D1;
+    border-right-style: solid;
+    border-right-width: 0.75px;
+  }
+  .people-description2 h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  .people-description3 h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    line-height: 30px;
+    color: #3D3C3C;
+  }
+  .our-people-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+  }
+  .people-description3 {
+    display: none;
+    width: 45%;
+    height: 100%;
+    padding: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: #3D3C3C;
+    text-align: center;
+    font-family: Segoe UI;
+    border-left-color: #BAC2D1;
+    border-left-style: solid;
+    border-left-width: 0.75px;
+  }
+  /*partnerships*/
+  .partnership-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .partnership-container {
+    width: 40%;
+  }
+  .bottom-partnership-container {
+    width: 40%;
+    border: none;
+  }
+  .partnership-banners {
+    display: inline-block;
+    padding: 0px;
+    margin: none;
+    width: 80%;
+  }
+  .ontario-banners {
+    display: inline-block;
+    padding: 0px;
+    margin: none;
+    width: 90%;
+  }
+  .mobile-handshake {
+    display: none;
+  }
+  /*contact us*/
+  .mobile-phone {
+    display: none;
+  }
+  .contact-list {
+    height: calc( 100% - 151px);
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  .contacts {
+    border-color: #707070;
+    border-style: solid;
+    border-width: 1.5px;
+    height: calc(50% - 3px);
+    width: calc(50% - 3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .map-symbol {
+    height: 100px;
+    margin-top: 30px;
+    width: auto;
+  }
+  .envelope-symbol {
+    width: auto;
+    height: 100px;
+  }
+  .phone-symbol {
+    width: auto;
+    height: 100px;
+  }
+  .mibs-symbol {
+    height: 100px;
+    width: auto;
+  }
+  .contact-list h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    word-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    margin: none;
+    display: inline-block;
+    float: none;
+    width: 100%;
+  }
+  .contacts-symbol {
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contacts-text1 {
+    width: 90%;
+    height: auto;
+  }
+  .contacts-text2 {
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .contacts-text3 {
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+  .contacts-text4 {
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .mibs-contacts-symbol {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 50%;
+    padding-top: 0%;
+    padding-left: 0%;
+  }
+  .mobile-break {
+    display: none;
+  }
+  /*share styling*/
+  .mobile-phone {
+    display: none;
+  }
+  #non-menu2 {
+    height: 100%;
+  }
+  .share-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc( 100% - 151px);
+    border-color: #707070;
+    border-style: none;
+    border-width: 1px;
+  }
+  .left {
+    width: 33%;
+    display: inline-block;
+  }
+  .right {
+    width: 33%;
+    display: inline-block;
+  }
+  .share-icon-list {
+    width: 200px;
+    text-align: center;
+  }
+  #fbBtn {
+    width: 33%;
+    display: inline-block;
+  }
+  .last-share-icon {
+    width: 200px;
+    margin-top: 30px
+  }
+  .contact-info-share {
+    padding-top: 5px;
+    padding-left: 0px;
+    font-family: Segoe UI;
+    color: #3D3C3C;
+    text-align: center;
+    background-color: #C5ECFF;
+    font-weight: 350;
+    height: 150px;
+    border-top-style: none;
+  }
+  .contact-info-share h3 {
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 65px;
+  }
+  .share-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .contact-people {
+    display: flex;
+    padding-top: 5px;
+    font-family: Segoe UI;
+    color: #3D3C3C;
+    text-align: left;
+    background-color: #C5ECFF;
+    width: 100%;
+    float: left;
+    font-weight: 350;
+    height: 150px;
+    border-top-style: none;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .contact-people ul {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    height: auto;
+  }
+  .contact-recent-projects {
+    display: inline-block;
+    padding-top: 5px;
+    font-family: Segoe UI;
+    color: #3D3C3C;
+    text-align: left;
+    background-color: #C5ECFF;
+    width: 100%;
+    font-weight: 350;
+    height: 150px;
+    border-top-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contact-recent-projects ul {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    height: auto;
+  }
+  .contact-info-share ul {
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .share-footer-container {
+    border-top-color: #707070;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+    height: 155px;
+    display: flex;
+    background-color: #C5ECFF;
+  }
+  .share-footer-container ul {
+    list-style-type: none;
+  }
+  .contact-recent-projects h3 {
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 40px;
+    margin-left: 5%;
+  }
+  .contact-people h3 {
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 40px;
+    margin-right: 310px;
+  }
+  .contact-info-share {
+    padding-top: 5px;
+    padding-left: 0%;
+    color: #3D3C3C;
+    text-align: center;
+  }
+  .contact-info-share h3 {
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 40px;
+    padding-left: 0%;
+  }
+  .contact-info-share ul {
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 0%;
+    height: auto;
+  }
+}
