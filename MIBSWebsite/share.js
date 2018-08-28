@@ -25,7 +25,7 @@ $(document).ready(function() {
   var shareBoxHeight = $(".share-div").height();
   console.log(shareIconHeight);
   console.log(shareBoxHeight);
-  if(shareIconHeight > shareBoxHeight){
+  if(shareIconHeight > shareBoxHeight && $(window).width() < 1000){
     shareBox[0].style.height = "auto";
   }
   else if ($(window).width() > 1000){
@@ -43,7 +43,7 @@ $(window).resize(function() {
   var shareBoxHeight = $(".share-div").height();
   console.log(shareIconHeight);
   console.log(shareBoxHeight);
-  if(shareIconHeight > shareBoxHeight){
+  if(shareIconHeight > shareBoxHeight && $(window).width() < 1000){
     shareBox[0].style.height = "auto";
   }
   else if ($(window).width() > 1000){
