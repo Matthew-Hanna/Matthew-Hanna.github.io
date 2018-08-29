@@ -1,12 +1,12 @@
 var slideIndex = 1;
 showPeople(slideIndex);
-
 var index = getParameterByName('slide');
 if (index != null) {
   showPeople(index);
 }
 
 function plusSlides(n) {
+  slideIndex = parseInt(slideIndex);
   var slideValue = slideIndex + n;
   showPeople(slideValue);
 }
@@ -57,7 +57,6 @@ function showPeople(n) {
   for (i = 0; i < description3.length; i++) {
     description3[i].style.display = "none";
   }
-  console.log(slideIndex);
   slides1[slideIndex - 1].style.display = "block";
   description1[slideIndex - 1].style.display = "block";
   slides2[slideIndex - 1].style.display = "inline-block";
