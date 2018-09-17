@@ -120,6 +120,10 @@ br {
       margin-top: 10px; /* change this to whatever height you want it */
 }
 
+a {
+  text-decoration: none;
+}
+
 .the-title{
   font-family: 'Lato', sans-serif;
   font-size: 50px;
@@ -129,7 +133,8 @@ br {
   text-decoration: none;
   text-transform: capitalize;
   color: #FFF;
-  line-height: 50px;
+  margin-top: 10px;
+  line-height: 60px;
 }
 
 .name-title{
@@ -299,6 +304,21 @@ h3{
   vertical-align: bottom;
 }
 
+.biomed3{
+  text-indent: 20px;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: left;
+  background-color:#0A507F;
+  padding: 10px 10px 10px;
+  width: 600px;
+  height: 260px;
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: bottom;
+}
+
 .biomedtop{
   margin-top: 50px;
   text-indent: 20px;
@@ -343,6 +363,7 @@ h3{
     font-family: trebuchet ms;
     font-size: 30px;
     text-indent: 5px;
+    color: #FFF;
 }
 .biotext{
   font-family: 'Source Sans Pro', sans-serif;
@@ -374,6 +395,14 @@ h3{
   background-color: #657282;
   width: 650px;
   height: 275px;
+  display: inline-block;
+  text-align: left;
+}
+
+.picholder4{
+  background-color: #657282;
+  width: 600px;
+  height: 350px;
   display: inline-block;
   text-align: left;
 }
@@ -441,6 +470,27 @@ h3{
   display: inline-block;
   margin-right: -5px;
   vertical-align: top;
+  margin-top: 5px;
+}
+.filler7{
+  background-image: url("filler.jpg");
+  height: 275px;
+  width: 160px;
+  text-align: left;
+  display: inline-block;
+  margin-left: -5px;
+  vertical-align: top;
+  margin-top: 0px;
+}
+
+.filler8{
+  background-image: url("filler.jpg");
+  height: 350px;
+  width: 180px;
+  text-align: left;
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: top;
   margin-top: 0px;
 }
 
@@ -494,6 +544,12 @@ h3{
   height: 375px;
   margin-left: 30px;
   margin-top: 20px;
+}
+
+.web{
+    height: 310px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .cube{
@@ -566,6 +622,12 @@ h3{
   float: left;
   color: #000;
   margin-top: 10px;
+}
+
+.MIBS{
+  height: 240px;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 
 @media only screen and (max-width: 955px)
